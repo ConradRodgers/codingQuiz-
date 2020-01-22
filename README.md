@@ -1,2 +1,3 @@
 # codingQuiz-
-A short coding quiz utilizing JavaScript 
+
+A short coding quiz utilizing JavaScript

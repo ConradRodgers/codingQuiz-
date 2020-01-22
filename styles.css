@@ -1,0 +1,23 @@
+.grid {
+  width: 600px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: gray;
+  padding: 10px 50px 50 px 50px;
+  border-radius: 50px;
+  border: 8px solid darkcyan;
+  box-shadow: 20px 15 px 10 px blue;
+}
+
+body {
+}
+
+.grid h1 {
+  font-family: monospace;
+  background-color: #57636e;
+  font-size: 60px;
+  text-align: center;
+  color: blue;
+  padding: 2px 0px;
+  border-radius: 12px;
+}
