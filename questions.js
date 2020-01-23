@@ -23,6 +23,7 @@ var questions = [{
 {
     title: "Which of the following is an advantage of using JavaScript?"
     choices: ["Increased interactivity", "Less server interaction", "Immediate feedback from the users", "All of the above."]
+    answer: ""
 }
 
 ]
