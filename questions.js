@@ -1,3 +1,16 @@
+//constructor function 
+function Question (text, choices, answer){
+    this.text = text;
+    this.choices = choices;
+    this.answer =answer;
+}
+
+//  test if user selected answer is correct
+Question.prototype.correctAnswer = function (choice) {
+    return choice === this.answer;
+}
+
+
 // listing out questions
 
 var questions = [{
