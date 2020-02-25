@@ -30,7 +30,7 @@ Quiz.prototype.isEnded = function() {
 };
 
 // presents next question to user weather; right or wrong / scoreing +10
-Quiz.prototype.guess = function(anwer) {
+Quiz.prototype.guess = function(answer) {
   this.questionIndex++;
 
   if (this.getQuestionIndex().correctAnswer(answer)) {

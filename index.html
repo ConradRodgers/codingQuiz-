@@ -8,7 +8,10 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <div class="grid">
+    <div class="startQuiz">
+      <button>Start Quiz</button>
+    </div>
+    <div class="grid hidden">
       <div id="quiz">
         <h1>Javascript Quiz</h1>
         <hr style="margin-bottom: 20px" />
@@ -19,18 +22,15 @@
           <button id="btn2"><span id="choice2"></span></button>
           <button id="btn3"><span id="choice3"></span></button>
         </div>
-
         <div>
-          <span id="timer"> <span id="time">10</span> Seconds </span>
+          <span id="timer"> <span id="time"></span> Seconds </span>
         </div>
-
         <footer>
-          <p id="progress">Question x of y</p>
-          <p display
+          <!-- <p id="progress">Question x of y</p>
+          <p display -->
         </footer>
       </div>
     </div>
-
     <script src="question.js"></script>
     <script src="app.js"></script>
   </body>

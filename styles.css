@@ -8,11 +8,11 @@
   border: 8px solid darkcyan;
   box-shadow: 20px 15 px 5 px blue;
 }
-
 body {
   background-color: blanchedalmond;
+  /* Hide the overflow of content/remove scroll bar on the side of the page */
+  overflow: hidden;
 }
-
 .grid h1 {
   font-family: monospace;
   background-color: #57636e;
@@ -23,12 +23,10 @@ body {
   border-radius: 12px;
   padding-0px: 2px;
 }
-
 .grid #questions {
   font-family: sans-serif;
   font-size: 30px;
 }
-
 #btn0,
 #btn1,
 #btn2,
@@ -41,11 +39,24 @@ body {
   border-radius: 50px;
   font-size: 20px;
 }
-
 #btn0:hover,
 #btn1:hover,
 #btn2:hover,
 #btn3:hover {
   cursor: pointer;
   background-color: chartreuse;
+}
+.startQuiz {
+  /* Flexbox definition */
+  display: flex;
+  /* Make the startQuiz div contents (in this case the button) centered horizontally within it */
+  justify-content: center;
+  /* Make the startQuiz div contents (button) centered vertically within it */
+  align-items: center;
+  /* Set the min height of the startQuiz div to be 100 percent of the viewport (screen) height */
+  min-height: 100vh;
+}
+/* Will use this class in Javascript to make an HTML element hide from view */
+.hidden {
+  display: none;
 }
